@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Start of Styling////////////////////////////////////////////////////////////////////////// */
+/* Start of Styling AND HOME PAGE/////////////////////////////////////////////////////////////////// */
 * {
     box-sizing: border-box;
 }
@@ -62,10 +62,10 @@ header nav a{
     text-decoration: none;
     color: black;
 }
-.header .homeHeaderImg {
-    padding: 100px 0;
+header nav a:hover{
+    color:darkgray;
 }
-
+/* END OF HEADER-NAV STYLING///////////////////////////////////////////////////////// */
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -188,4 +188,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* END OF HOME PAGE////////////////////////////////////////////////////////////////////// */
+/* START OF ABOUT/////////////////////////////////////////////////////// */
+.aboutHeader{
+    padding: 20px;
+    border-bottom: 2px dotted black;
+}
+.aboutTopContent{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutBotContent{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutBox{
+    border-bottom: 2px dotted black;
+    width:46%;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.aboutBox h2{
+    padding-top:10px;
+}
+.aboutButton{
+    border:2px solid black;
+    width:32%;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+.aboutButton:hover{
+    background-color: darkgray;
+}
+
+.aboutButton .learn{
+    text-decoration: none;
+    color:black;
+    padding-top: 9px;
+}
+.aboutClosing{
+    margin: 35px 0;
 }
