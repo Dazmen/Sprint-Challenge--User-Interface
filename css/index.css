@@ -189,6 +189,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover{
+    color: grey;
+}
 /* END OF HOME PAGE////////////////////////////////////////////////////////////////////// */
 /* START OF ABOUT/////////////////////////////////////////////////////// */
 .aboutHeader{
