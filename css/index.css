@@ -53,13 +53,17 @@ table {
 header nav {
     display: flex;
     justify-content: space-between;
-    width:100%
-    padding: 50px 0:
+    align-items: flex-end;
+    width:100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 header nav a{
     text-decoration: none;
     color: black;
-
+}
+.header .homeHeaderImg {
+    padding: 100px 0;
 }
 
 html, body {
@@ -86,7 +90,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
