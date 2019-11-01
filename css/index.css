@@ -54,13 +54,14 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width:100%;
-    padding-top: 25px;
-    padding-bottom: 50px;
+    width:94%;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 header nav a{
     text-decoration: none;
     color: black;
+    font-size: 14px;
 }
 header nav a:hover{
     color:darkgray;
@@ -196,7 +197,7 @@ footer nav a:hover{
 /* START OF ABOUT/////////////////////////////////////////////////////// */
 .aboutHeader{
     padding: 20px;
-    border-bottom: 2px dotted black;
+    border-bottom: 1px dashed black;
 }
 .aboutTopContent{
     display: flex;
@@ -205,11 +206,12 @@ footer nav a:hover{
 .aboutBotContent{
     display: flex;
     justify-content: space-around;
+    padding-top:29px;
 }
 .aboutBox{
-    border-bottom: 2px dotted black;
+    border-bottom: 1px dashed black;
     width:46%;
-    padding-top: 35px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 .aboutBox h2{
@@ -217,13 +219,13 @@ footer nav a:hover{
 }
 .aboutButton{
     border:2px solid black;
-    width:32%;
-    height:35px;
+    width:33.5%;
+    height:37px;
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 20px;
-    border-radius: 9px;
+    border-radius: 8px;
 }
 .aboutButton:hover{
     background-color: darkgray;
@@ -235,5 +237,6 @@ footer nav a:hover{
     padding-top: 9px;
 }
 .aboutClosing{
-    margin: 35px 0;
+    margin: 40px 0;
+    padding-top: 10px;
 }
